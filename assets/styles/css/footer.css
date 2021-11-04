@@ -1,0 +1,31 @@
+.footer{
+	background-color:#404040;
+	bottom:0px;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.footer__social-section{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:fit-content;
+}
+
+.footer__social-list{
+	list-style-type: none;
+	padding-left:0px !important;
+}
+
+.footer__social-list li{
+	display:inline;
+}
+
+.footer__social-list li a i{
+	color:#ffffff;
+}
+
+.footer__title{
+	color:#ffffff;
+	text-align: center;
+}

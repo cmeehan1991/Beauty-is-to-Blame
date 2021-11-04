@@ -1,0 +1,40 @@
+[18-Nov-2019 14:11:48 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/cmeehan/beautyistoblame.com/wp-content/themes/vinezia/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home1/cmeehan/beautyistoblame.com/wp-content/themes/vinezia/404.php on line 1
+[14-Dec-2019 00:35:35 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/cmeehan/beautyistoblame.com/wp-content/themes/vinezia/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home1/cmeehan/beautyistoblame.com/wp-content/themes/vinezia/404.php on line 1
+[16-Dec-2019 00:58:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/cmeehan/beautyistoblame.com/wp-content/themes/vinezia/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home1/cmeehan/beautyistoblame.com/wp-content/themes/vinezia/404.php on line 1
+[12-Jan-2020 02:47:00 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/cmeehan/beautyistoblame.com/wp-content/themes/vinezia/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home1/cmeehan/beautyistoblame.com/wp-content/themes/vinezia/404.php on line 1
+[15-Jan-2020 00:34:28 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/cmeehan/beautyistoblame.com/wp-content/themes/vinezia/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home1/cmeehan/beautyistoblame.com/wp-content/themes/vinezia/404.php on line 1
+[17-Apr-2020 20:09:37 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/cmeehan/beautyistoblame.com/wp-content/themes/vinezia/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home1/cmeehan/beautyistoblame.com/wp-content/themes/vinezia/404.php on line 1
+[25-Apr-2020 15:51:49 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/cmeehan/beautyistoblame.com/wp-content/themes/vinezia/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home1/cmeehan/beautyistoblame.com/wp-content/themes/vinezia/404.php on line 1
+[18-May-2021 11:18:09 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/cmeehan/beautyistoblame.com/wp-content/themes/vinezia/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home1/cmeehan/beautyistoblame.com/wp-content/themes/vinezia/index.php on line 1
+[22-May-2021 02:47:42 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/cmeehan/beautyistoblame.com/wp-content/themes/vinezia/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home1/cmeehan/beautyistoblame.com/wp-content/themes/vinezia/404.php on line 1
+[23-May-2021 00:44:32 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/cmeehan/beautyistoblame.com/wp-content/themes/vinezia/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home1/cmeehan/beautyistoblame.com/wp-content/themes/vinezia/404.php on line 1

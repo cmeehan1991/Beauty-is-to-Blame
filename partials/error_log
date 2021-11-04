@@ -1,0 +1,8 @@
+[22-Jun-2018 20:53:42 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /home1/cmeehan/public_html/beautyistoblame.com/wp-content/themes/vinezia/partials/fragment-gallery.php:6
+Stack trace:
+#0 {main}
+  thrown in /home1/cmeehan/public_html/beautyistoblame.com/wp-content/themes/vinezia/partials/fragment-gallery.php on line 6
+[22-Jun-2018 20:53:43 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /home1/cmeehan/public_html/beautyistoblame.com/wp-content/themes/vinezia/partials/fragment-gallery.php:6
+Stack trace:
+#0 {main}
+  thrown in /home1/cmeehan/public_html/beautyistoblame.com/wp-content/themes/vinezia/partials/fragment-gallery.php on line 6
