@@ -1,3 +1,16 @@
+/* Global Styles *
+ * Colors
+ ** Primary: #dc9275 (Sedona Stone)
+ ** Secondary: #8f3513 (Mahogany Fire)
+ ** Tertiary: #ebdcc5 (Oat)
+ ** Quaternary: #dd8634 (Harvest Glory)
+ *
+ * Fonts
+ ** Ephesis
+ ** Mohave: Light
+******************/
+
+
 /* Wordpress defaults */
 
 img.alignright { float: right; margin: 0 0 1em 1em; }
@@ -17,7 +30,17 @@ img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 }
 
 body, h1, h2, h3, h4, h5, p, span{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Mohave', sans-serif;
+}
+
+.container-fluid a{
+	color:#000000 !important;
+}
+
+.wp-block-latest-posts a{
+	font-size:1.5em;
+	text-decoration: none !important;
+	font-weight: bold;
 }
 
 .blog-posts__list{
@@ -118,4 +141,31 @@ body, h1, h2, h3, h4, h5, p, span{
 	width:fit-content;
 	margin-left:auto;
 	margin-right:auto;
+}
+
+/* CTA Images */
+.wp-block-cover a{
+	text-decoration: none !important;
+	color:inherit;
+}
+
+.wp-block-cover a:hover{
+	color:#b76e79;
+}
+
+/*Footer Styles */
+.footer--left li, .footer--right li, .footer--middle li{
+	list-style-type: none;
+	text-align: center;
+}
+
+.footer, .footer a{
+	color:#f1f1f1 !important;
+}
+
+
+/* Page styles */
+.wp-block-column{
+	padding:5px;
+	height:auto !important;
 }

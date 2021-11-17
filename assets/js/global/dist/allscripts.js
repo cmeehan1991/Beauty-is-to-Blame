@@ -3167,6 +3167,27 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__(/*! bootstrap-icons/font/bootstrap-icons.css */ "./node_modules/bootstrap-icons/font/bootstrap-icons.css");
 /* Theme specific */
 
+
+__webpack_require__(/*! ./src/post.js */ "./js/global/src/post.js");
+
+/***/ }),
+
+/***/ "./js/global/src/post.js":
+/*!*******************************!*\
+  !*** ./js/global/src/post.js ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
+
+$(document).ready(function () {
+  console.log('hello, world');
+  $('.comment-reply-login').on('click', function (e) {
+    e.preventDefault();
+    window.location.href = './my-account';
+  });
+});
+
 /***/ }),
 
 /***/ "./node_modules/bootstrap/dist/js/bootstrap.esm.js":

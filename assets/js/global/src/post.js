@@ -1,5 +1,11 @@
+var $ = require('jquery');
+
 $(document).ready(function(){
-	$('.next-post-link, .previous-post-link').hover(function(){
-		$(this).popover('toggle');
-	});
+	console.log('hello, world');
+	
+	$('.comment-reply-login').on('click', function(e){
+		e.preventDefault();
+		window.location.href = './my-account'
+	})
 });
+
