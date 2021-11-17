@@ -12,4 +12,4 @@ include(BLOG_PATH . '/includes/functions/functions-supports.php');
 include(BLOG_PATH . '/includes/functions/functions-sidebars.php');
 
 // Custom walkers
-include(BLOG_PATH . '/includes/walkers/WPNavMenuWalker.php'); // Nav menu walker
+include(BLOG_PATH . '/includes/walkers/Bootstrap5Walker.php'); // Nav menu walker

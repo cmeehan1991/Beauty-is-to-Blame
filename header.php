@@ -15,27 +15,33 @@
 			</div>
 		</nav>
 		<nav class="navbar navbar-expand-md navbar-light bg-light navbar--primary">
-			<div class="container-fluid flex-lg-column">
-				<?php 	$custom_logo = get_theme_mod('custom_logo');
+			<div class="container-fluid flex-md-column">
+				<?php 	
+				$custom_logo = get_theme_mod('custom_logo');
 				$custom_logo_image = $custom_logo != null ? wp_get_attachment_image_src($custom_logo, 'full') : null;
 				
-				if($custom_logo != null):?>
+				if($custom_logo != null):
+				?>
+				
 				<a class="navbar-brand navbar-brand__has-logo" href="<?php bloginfo('url');?>"><img class="custom-logo" src="<?php echo $custom_logo_image[0]; ?>" alt="<?php bloginfo('title');?>"></a>
+				
 				<?php else: ?>
+				
 				<a class="navbar-brand" href="<?php bloginfo('url');?>"><?php bloginfo( 'title' ); ?></a>
+				
 				<?php endif; ?>
 				
-				<button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<?php 
 				$nav_args = array(
 					'location' 			=> 'primary-header-menu',
-					'menu_class' 		=> 'navbar-nav justify-content-center',
+					'menu_class' 		=> 'navbar-nav',
 					'container' 		=> 'div',
-					'container_class' 	=> 'collapse navbar-collapse justify-content-center',
+					'container_class' 	=> 'collapse navbar-collapse',
 					'container_id'		=> 'navbarSupportedContent',
-					'walker'			=> new WP_Nav_Menu_Walker()
+					'walker'			=> new bootstrap_5_wp_nav_menu_walker()
 					);
 				wp_nav_menu($nav_args);
 				?>
