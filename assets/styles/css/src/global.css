@@ -1,7 +1,9 @@
 /* Global Styles *
  * Colors
- ** Primary: #ad6056
- ** Secondary: #d28978
+ ** Primary: #B26458
+ ** Secondary: #da8c7f
+ ** Tertiary: #d28978 (Oat)
+ ** Quaternary: #dd8634 (Harvest Glory)
  *
  * Fonts
  ** Ephesis
@@ -32,7 +34,7 @@ body, h1, h2, h3, h4, h5, p, span{
 }
 
 .container-fluid a{
-	color:#000000 !important;
+	color:#000000;
 }
 
 .wp-block-latest-posts a{
