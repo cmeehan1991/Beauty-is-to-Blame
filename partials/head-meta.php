@@ -24,6 +24,6 @@ $meta_image = get_the_post_thumbnail_url() ? get_the_post_thumbnail_url() : get_
 <meta property="og:url" content="<?php echo $meta_url; ?>">
 <meta property="og:description" content="<?php echo $meta_description; ?>">
 <meta property="og:image" content="<?php echo $meta_image; ?>">
-<meta property="gb:app_id" content="431068527368139">
+<meta property="fb:app_id" content="431068527368139">
 
 
