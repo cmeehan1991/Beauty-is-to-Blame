@@ -1,8 +1,10 @@
 @import url(https://fonts.googleapis.com/css2?family=Ephesis&family=Mohave:wght@300&display=swap);
 /* Global Styles *
  * Colors
- ** Primary: #ad6056
- ** Secondary: #d28978
+ ** Primary: #B26458
+ ** Secondary: #da8c7f
+ ** Tertiary: #d28978 (Oat)
+ ** Quaternary: #dd8634 (Harvest Glory)
  *
  * Fonts
  ** Ephesis
@@ -33,7 +35,7 @@ body, h1, h2, h3, h4, h5, p, span{
 }
 
 .container-fluid a{
-	color:#000000 !important;
+	color:#000000;
 }
 
 .wp-block-latest-posts a{
@@ -180,6 +182,7 @@ body, h1, h2, h3, h4, h5, p, span{
 
 button.navbar-toggler{
 	border:none;
+	color:#ffffff;
 }
 
 .custom-logo{
@@ -191,12 +194,12 @@ button.navbar-toggler{
 }
 
 .navbar--secondary{
-	background-color: #d28978;
+	background-color: #B26458;
 	color:#ffffff;
 }
 
-.navbar--primary{
-	background-color:#ffffff !important;
+.bg-light.navbar--primary{
+	background-color:#d28978 !important;
 }
 
 .navbar-brand{
@@ -217,6 +220,10 @@ button.navbar-toggler{
 
 .wp-social-link{
 	margin:0 !important;
+}
+
+.nav-link{
+	color:#ffffff !important;
 }
 .font--raleway{
 	font-family:'Raleway';
@@ -242,7 +249,7 @@ button.navbar-toggler{
 	font-family: 'Parisienne';
 }
 .footer{
-	background-color:#404040;
+	background-color:#B26458;
 	bottom:0px;
 	padding-top:15px;
 	padding-bottom:15px;
@@ -275,7 +282,7 @@ button.navbar-toggler{
 	text-align: center;
 }
 .page-header{
-	background-color:#d28978;
+	background: linear-gradient(90deg, #B26458, #d28978);
 	min-height:200px;
 }
 
@@ -295,7 +302,7 @@ button.navbar-toggler{
 }
 
 .title-section{
-	background-color:#d28978;
+	background-color: #B26458;
 	color:#f1f1f1;
 	min-height:150px;
 	flex-flow: row;
