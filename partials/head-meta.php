@@ -1,12 +1,12 @@
 <?php 
-$meta_title = wp_title() ? wp_title() : get_bloginfo('title');
+$meta_title = wp_title('|', false, '') ? wp_title('|', false, '') : get_bloginfo('title');
 
 $meta_url = get_the_permalink() ? get_the_permalink() : get_bloginfo('url');
 
 $meta_description = get_bloginfo('description');
 
 if(get_post_meta(get_the_ID(), '_yoast_wpseo_metadesc', true)){
-	$meta_description = get_post_meta(get_the_ID(), '_yoast_wpseo_metadesc', true)
+	$meta_description = get_post_meta(get_the_ID(), '_yoast_wpseo_metadesc', true);
 }elseif(get_the_excerpt() && !is_home()){
 	$meta_description = get_the_excerpt();
 }
