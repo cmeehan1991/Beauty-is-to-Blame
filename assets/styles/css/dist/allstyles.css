@@ -1,10 +1,8 @@
 @import url(https://fonts.googleapis.com/css2?family=Ephesis&family=Mohave:wght@300&display=swap);
 /* Global Styles *
  * Colors
- ** Primary: #dc9275 (Sedona Stone)
- ** Secondary: #8f3513 (Mahogany Fire)
- ** Tertiary: #ebdcc5 (Oat)
- ** Quaternary: #dd8634 (Harvest Glory)
+ ** Primary: #ad6056
+ ** Secondary: #d28978
  *
  * Fonts
  ** Ephesis
@@ -193,7 +191,7 @@ button.navbar-toggler{
 }
 
 .navbar--secondary{
-	background-color: #8f3513;
+	background-color: #d28978;
 	color:#ffffff;
 }
 
@@ -277,7 +275,7 @@ button.navbar-toggler{
 	text-align: center;
 }
 .page-header{
-	background-color:#ebdcc5;
+	background-color:#d28978;
 	min-height:200px;
 }
 
@@ -297,7 +295,7 @@ button.navbar-toggler{
 }
 
 .title-section{
-	background-color:#404040;
+	background-color:#d28978;
 	color:#f1f1f1;
 	min-height:150px;
 	flex-flow: row;
