@@ -282,7 +282,7 @@ button.navbar-toggler{
 	text-align: center;
 }
 .page-header{
-	background-color:#d28978;
+	background: linear-gradient(90deg, #B26458, #d28978);
 	min-height:200px;
 }
 
@@ -302,7 +302,7 @@ button.navbar-toggler{
 }
 
 .title-section{
-	background-color:#d28978;
+	background-color: #B26458;
 	color:#f1f1f1;
 	min-height:150px;
 	flex-flow: row;
