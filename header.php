@@ -3,7 +3,7 @@
 	<head>
 		<?php get_template_part('partials/head', 'tag-manager');?>
 		<?php get_template_part('partials/head', 'meta'); ?>
-		<title><?php wp_title( '|', 'echo', 'right' ); bloginfo('title'); ?></title>
+		<title><?php wp_title(); ?></title>
 		<?php wp_head(); ?>
 	</head>
 	<body>
