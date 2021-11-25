@@ -21,14 +21,14 @@
 					<div class="post_hero" style="background-image:url(<?php echo get_the_post_thumbnail_url(); ?>);"></div>
 				</div>
 			<?php } ?>
-			<div class="row g-0 g-xs-1">
-				<div class="col-12 col-sm-12 col-md-10 col-lg-8 mx-auto">
+			<div class="row g-0">
+				<div class="col-10 col-sm-10 col-md-10 col-lg-8 mx-auto">
 					<?php the_content(); ?>
 				</div>
 			</div>
 			
-			<div class="row">
-				<div class="col-12 col-sm-12 col-md-10 col-lg-8 mx-auto">
+			<div class="row g-0">
+				<div class="col-10 col-sm-10 col-md-10 col-lg-8 mx-auto">
 					<?php comments_template(); ?>
 				</div>
 			</div>
